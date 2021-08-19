@@ -50,5 +50,5 @@
 [pull]
   rebase = false
 [user]
-	email = cd ~/code/$GITHUB_USERNAME/dotfiles && zsh git_setup.sh
-	name = TingWei Yap yap.tingwei@gmail.com
+	email = yap.tingwei@gmail.com
+	name = TingWei Yap
