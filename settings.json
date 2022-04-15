@@ -19,7 +19,8 @@
     "editor.showFoldingControls": "always",
     "emmet.includeLanguages":
     {
-        "erb": "html"
+        "*.erb": "html",
+        "ruby": "html"
     },
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
@@ -27,7 +28,7 @@
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "vscode-icons",
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -62,7 +63,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
@@ -75,5 +75,7 @@
     {
         "rubocop": true
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enableSmartCommit": true,
+    "vsicons.dontShowNewVersionMessage": true
 }
